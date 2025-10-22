@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from typing import List, Dict, Any
 from datetime import datetime
 
-#Hi
+# Hi there! I'm LaunchPad.AI, your career copilot. How can I assist you today?
 
 # Load environment variables
 load_dotenv()
