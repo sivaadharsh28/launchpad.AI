@@ -16,4 +16,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://sivaadh:$HF_TOKEN@huggingface.co/spaces/sivaadh/launchpad_ai master:main
+        run: git push https://sivaadh:$HF_TOKEN@huggingface.co/spaces/sivaadh/launchpad_ai main

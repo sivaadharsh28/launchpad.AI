@@ -43,7 +43,7 @@ def main():
             show_error=True,
             show_api=True,
         )
-        
+
     except ImportError as e:
         print(f"Import Error: {e}")
         print("Please install required dependencies: pip install -r requirements.txt")
